@@ -10,22 +10,22 @@ import sirmaAcademy from '../assets/Sirma-Academy.jpg';
 	<nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
 	  <div class="flex lg:flex-1">
 		<a href="#" class="-m-1.5 p-1.5">
-		  <span class="sr-only">Dashboard</span>
+		  <span class="sr-only"></span>
 		  <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="" class="h-8 w-auto" />
 		</a>
 	  </div>
 	  <div class="flex lg:hidden">
 		<button type="button" command="show-modal" commandfor="mobile-menu" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400">
-		  <span class="sr-only">Register</span>
+		  <span class="sr-only"></span>
 		  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" data-slot="icon" aria-hidden="true" class="size-6">
 			<path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" stroke-linecap="round" stroke-linejoin="round" />
 		  </svg>
 		</button>
 	  </div>
 	  <el-popover-group class="hidden lg:flex lg:gap-x-12">
-		<a href="#" class="text-sm/6 font-semibold text-white">Features</a>
-		<a href="#" class="text-sm/6 font-semibold text-white">Marketplace</a>
-		<a href="#" class="text-sm/6 font-semibold text-white">Company</a>
+		<a href="#" class="text-sm/6 font-semibold text-white">Dashboard</a>
+		<a href="/src/pages/register.astro" class="text-sm/6 font-semibold text-white">Register</a>
+		<a href="#" class="text-sm/6 font-semibold text-white">Courses</a>
 	  </el-popover-group>
 	  <div class="hidden lg:flex lg:flex-1 lg:justify-end">
 		<a href="#" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -57,19 +57,11 @@ import sirmaAcademy from '../assets/Sirma-Academy.jpg';
 						<path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
 					  </svg>
 					</button>
-					<el-disclosure id="products" hidden class="mt-2 block space-y-2">
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Analytics</a>
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Engagement</a>
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Security</a>
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Integrations</a>
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Automations</a>
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Watch demo</a>
-					  <a href="#" class="block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-white hover:bg-white/5">Contact sales</a>
-					</el-disclosure>
+					<!--  -->
 				  </div>
-				  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Features</a>
-				  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Marketplace</a>
-				  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Company</a>
+				  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Dashboard</a>
+				  <a href="/src/pages/register.astro" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Register</a>
+				  <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-white/5">Courses</a>
 				</div>
 				<div class="py-6">
 				  <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-white/5">Log in</a>
