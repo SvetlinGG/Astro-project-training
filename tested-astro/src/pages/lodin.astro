@@ -1,5 +1,8 @@
 
-
+---
+import Layout from '../layouts/Layout.astro';
+import MainLayout from '../components/MainLayout.astro';
+---
 <!--
   This example requires updating your template:
 
@@ -8,6 +11,8 @@
   <body class="h-full">
   ```
 -->
+<Layout>
+<MainLayout />
 <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-sm">
       <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" class="mx-auto h-10 w-auto" />
@@ -46,4 +51,4 @@
       </p>
     </div>
   </div>
-  
+</Layout>
